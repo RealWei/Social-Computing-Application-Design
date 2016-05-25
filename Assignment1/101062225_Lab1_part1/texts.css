@@ -1,0 +1,35 @@
+.time {
+    padding-top: 20px;
+    padding-left: 16px;
+    color: #616161;
+}
+
+.content {
+    width: 368px;
+    padding-top: 16px;
+    padding-left: 16px;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #B0BEC5;
+}
+
+.contentInput {
+    width: 368px;
+    resize: vertical;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: auto;
+
+}
+
+.invisible {
+    display: none;
+}

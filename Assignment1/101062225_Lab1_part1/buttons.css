@@ -1,0 +1,33 @@
+/*
+ *	This css file defines the button style and body background.
+ */
+.btn2 {
+	-moz-box-shadow: 0px 2px 2px 0px #757575;
+	-webkit-box-shadow: 2px 2px 0px 0px #757575;
+	box-shadow: 0px 2px 2px 0px #757575;
+	background-color:#4fc2f7;
+	display:inline-block;
+	margin: 8px 16px 8px 8px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 12px;
+	margin-bottom: 12px;
+	text-decoration:none;
+	border-radius: 2px;
+	border-width: 0px;
+}
+.btn2:hover {
+	background-color:#4fc2f7;
+}
+.btn2:active {
+	position:relative;
+	top:1px;
+}
+
+
+body {
+	background-color: #37474F;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flickr App</title>
+	<link href="../static/stylesheets/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	    	 <a class="navbar-brand" href="javascript:window.location.href=window.location.href" style="color: #dddddd;">Flickr Tag Searcher</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    </div>
+	  </div>
+	</nav>
+	<header class="jumbotron" id="overview">
+      	<div class="container subhead">
+		  	<div class="row">
+		  		<div class="col-md-12" id="space">
+		  		</div>
+				<div class="col-md-12">
+					<input type="text" id="search-bar" class="form-control" placeholder="Enter tags here" aria-describedby="sizing-addon1">
+					<button type="submit" id="search-button">Submit</button>
+					<br>
+					<div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="false" data-auto-logout-link="false" onlogin="" scope="publish_actions" ></div>
+				</div>
+		  	</div>
+		</div>
+    </header>
+    <div class="photos-padding"></div>
+    <div class="image-container">
+    	<div id="photos"></div>
+    </div>
+</body>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="../static/javascripts/flickr.js"></script>
+<script src="../static/javascripts/bootstrap.js"></script>
+</html>

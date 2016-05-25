@@ -1,0 +1,51 @@
+/**
+ *  This css file defines styles for blocks and itmes to display.
+ */
+
+
+/**
+ * Defines the style of todo item.
+ */
+.todo {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: auto;
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    border-right: 2px;
+    border-bottom: 2px;
+    border-color: #0277BD;
+    border-radius: 0px;
+}
+/**
+ * Defines the block to put "Edit" and "Delete" buttons in a todo item.
+ */
+.buttonContainer {
+    background-color: #FFFFFF;
+    text-align: right;
+    margin: 0px auto;
+}
+/**
+ * This class was originally designed to put "Add" and "Delete All" button.
+ * But since these buttons is placed in the floating action menu, I didn't use
+ * this style in my index.html.
+ */
+.topContainer {
+    background-color: #37474F;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    margin: 60px auto;
+    border-radius: 0px;
+}
+
+/**
+ * Put space to the block that put todo items.
+ */
+.todos {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+}

@@ -1,0 +1,7 @@
+i feel(.*)- Oh, why? | Well, I feel fine.
+why(.*)- Don't ask too much! | You sure you wanna know the reason? | I can't not answer all the questions. I'm just a little robat | Stop pushing me!!!!!
+i think(.*)- Great!! | You're so smart!! | Yeah, I agree!!
+who(.*)-I'm Robot!!
+what's(.*)name(.*)-My name is robot!!
+what(.*)time(.*)-I think there's a clock on the computer....... | It's morning here!!
+(.*)\?-That's a weird question | Try this: lmgtfy.com !! | Go find the answer yourself! Don't ask a little poor robot QQ

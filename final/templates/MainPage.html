@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% load static %}
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	<script src="http://maps.googleapis.com/maps/api/js"></script>
+    	<script src="http://maps.google.com/maps/api/js?v=3&sensor=false" type="text/javascript"></script>
+
+  		<!--Import Google Icon Font-->
+		<link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+      	<!--Import materialize.css-->
+
+      	<link type="text/css" rel="stylesheet" href="{% static "css/materialize.css" %}"  media="screen,projection"/>
+      	<script src="{% static "js/todo.js" %}"></script>
+		<script src="{% static "js/materialize.js" %}"></script>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    	<style>
+			.gradient{
+				background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.50) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.50)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.50) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.50) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.50) 100%); /* IE10+ */
+				background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.50) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+			}
+
+			#FBphoto_sticker{
+				max-width: 80px;
+				max-height: 80px;
+				padding-left: 15px;
+				padding-right: 15px;
+				padding-top: 5px;
+			}
+			form#form{
+			}
+			div.select-wrapper{
+				width: 100%;
+				float: right!important;
+			}
+			img.activator{
+				height: 400px;
+			}
+
+			#main_map{
+				max-width: 100%;
+				width:1000px;
+				height:300px;
+				margin: 0 auto 0 auto;
+			}
+			.card{
+				max-width:90%!important;
+				width: 550px;
+				margin: auto;
+			}
+
+			.card img {
+    			object-fit: cover;
+			}
+			#ShowNews{
+				margin-top: 50px;
+			}
+			#dropDown{
+         		width : 100%;
+         		height: 120px;
+    		}
+   			body{
+    			background-color: #E0E0E0;
+    		}
+			.btn2{
+				text-align: center;
+				margin-left: 5px;
+				color: #c0c0c0;
+				cursor: pointer;
+			}
+			.btn2:hover{
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			.btn2press{
+				margin-left: 5px;
+				color:blue;
+				cursor: pointer;
+			}
+			div.card-image.waves-effect.waves-block.waves-light{
+				height: 500px;
+			}
+			a.brand-logo:hover{
+				cursor: pointer;
+			}
+			.sk-fading-circle {
+			  margin: 100px auto;
+			  width: 40px;
+			  height: 40px;
+			  position: relative;
+			}
+			.sk-fading-circle .sk-circle {
+			  width: 100%;
+			  height: 100%;
+			  position: absolute;
+			  left: 0;
+			  top: 0;
+			}
+			.sk-fading-circle .sk-circle:before {
+			  content: '';
+			  display: block;
+			  margin: 0 auto;
+			  width: 15%;
+			  height: 15%;
+			  background-color: #333;
+			  border-radius: 100%;
+			  -webkit-animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
+			          animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
+			}
+			.sk-fading-circle .sk-circle2 {
+			  -webkit-transform: rotate(30deg);
+			      -ms-transform: rotate(30deg);
+			          transform: rotate(30deg);
+			}
+			.sk-fading-circle .sk-circle3 {
+			  -webkit-transform: rotate(60deg);
+			      -ms-transform: rotate(60deg);
+			          transform: rotate(60deg);
+			}
+			.sk-fading-circle .sk-circle4 {
+			  -webkit-transform: rotate(90deg);
+			      -ms-transform: rotate(90deg);
+			          transform: rotate(90deg);
+			}
+			.sk-fading-circle .sk-circle5 {
+			  -webkit-transform: rotate(120deg);
+			      -ms-transform: rotate(120deg);
+			          transform: rotate(120deg);
+			}
+			.sk-fading-circle .sk-circle6 {
+			  -webkit-transform: rotate(150deg);
+			      -ms-transform: rotate(150deg);
+			          transform: rotate(150deg);
+			}
+			.sk-fading-circle .sk-circle7 {
+			  -webkit-transform: rotate(180deg);
+			      -ms-transform: rotate(180deg);
+			          transform: rotate(180deg);
+			}
+			.sk-fading-circle .sk-circle8 {
+			  -webkit-transform: rotate(210deg);
+			      -ms-transform: rotate(210deg);
+			          transform: rotate(210deg);
+			}
+			.sk-fading-circle .sk-circle9 {
+			  -webkit-transform: rotate(240deg);
+			      -ms-transform: rotate(240deg);
+			          transform: rotate(240deg);
+			}
+			.sk-fading-circle .sk-circle10 {
+			  -webkit-transform: rotate(270deg);
+			      -ms-transform: rotate(270deg);
+			          transform: rotate(270deg);
+			}
+			.sk-fading-circle .sk-circle11 {
+			  -webkit-transform: rotate(300deg);
+			      -ms-transform: rotate(300deg);
+			          transform: rotate(300deg);
+			}
+			.sk-fading-circle .sk-circle12 {
+			  -webkit-transform: rotate(330deg);
+			      -ms-transform: rotate(330deg);
+			          transform: rotate(330deg);
+			}
+			.sk-fading-circle .sk-circle2:before {
+			  -webkit-animation-delay: -1.1s;
+			          animation-delay: -1.1s;
+			}
+			.sk-fading-circle .sk-circle3:before {
+			  -webkit-animation-delay: -1s;
+			          animation-delay: -1s;
+			}
+			.sk-fading-circle .sk-circle4:before {
+			  -webkit-animation-delay: -0.9s;
+			          animation-delay: -0.9s;
+			}
+			.sk-fading-circle .sk-circle5:before {
+			  -webkit-animation-delay: -0.8s;
+			          animation-delay: -0.8s;
+			}
+			.sk-fading-circle .sk-circle6:before {
+			  -webkit-animation-delay: -0.7s;
+			          animation-delay: -0.7s;
+			}
+			.sk-fading-circle .sk-circle7:before {
+			  -webkit-animation-delay: -0.6s;
+			          animation-delay: -0.6s;
+			}
+			.sk-fading-circle .sk-circle8:before {
+			  -webkit-animation-delay: -0.5s;
+			          animation-delay: -0.5s;
+			}
+			.sk-fading-circle .sk-circle9:before {
+			  -webkit-animation-delay: -0.4s;
+			          animation-delay: -0.4s;
+			}
+			.sk-fading-circle .sk-circle10:before {
+			  -webkit-animation-delay: -0.3s;
+			          animation-delay: -0.3s;
+			}
+			.sk-fading-circle .sk-circle11:before {
+			  -webkit-animation-delay: -0.2s;
+			          animation-delay: -0.2s;
+			}
+			.sk-fading-circle .sk-circle12:before {
+			  -webkit-animation-delay: -0.1s;
+			          animation-delay: -0.1s;
+			}
+
+			@-webkit-keyframes sk-circleFadeDelay {
+			  0%, 39%, 100% { opacity: 0; }
+			  40% { opacity: 1; }
+			}
+
+			@keyframes sk-circleFadeDelay {
+			  0%, 39%, 100% { opacity: 0; }
+			  40% { opacity: 1; }
+			}
+			.ey{
+			  display:inline-block;
+			  margin-left:20px;
+			  width: 40%px;
+
+			 }
+			 .ex{
+			  display:inline-block;
+			  margin-left:20px;
+			  width: 250%;
+
+			 }
+			form{
+			    display:inline-block;
+			}
+			button.btn.waves-effect.waves-light{
+				margin-left:5px;
+			}
+    	</style>
+	</head>
+	<body >
+		<nav>
+		    <div class="nav-wrapper" style="background-color:#039be5;">
+		      	<a class="brand-logo" onclick = "WhatToEat()">What To Eat</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		      	<ul class="right hide-on-med-and-down">
+		      		<li>
+		      			<div class="row">
+						    <div class="input-field">
+						        <input id="search" type="search" placeholder="輸入朋友名字.." required >
+						        <label for="search"><i class="material-icons">search</i></label>
+						        <i class="material-icons">close</i>
+					        </div>
+						</div>
+		      		</li>
+		        	<li><a onclick="Search()"><i class="material-icons right" onclick="Search()">search</i>搜尋朋友</a></li>
+		        	<li><a id="coins" onclick="useStar()"><i class="material-icons left">local_atm</i>X</a></li>
+		        	<li><a id="FBphoto_sticker"></a></li>
+					<a style="display: none;color:white;" id="fb_login_btn" scope="public_profile,email" href="javascript:void(0);" onclick="checkLoginState()" class="waves-effect waves-light btn-flat">
+						<text class="fa fa-facebook"></text>Login</a>
+		        	<!--<fb:login-button id ="FBloginbtn" scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>-->
+		      	</ul>
+				<ul class="side-nav" id="mobile-demo">
+		      		<li>
+		      			<div class="row">
+						    <div class="input-field">
+						        <input id="search" type="search" placeholder="輸入朋友名字.." required >
+						        <label for="search"><i class="material-icons">search</i></label>
+						        <i class="material-icons">close</i>
+					        </div>
+						</div>
+		      		</li>
+		        	<li><a onclick="Search()"><i class="material-icons right" onclick="Search()">search</i>搜尋朋友</a></li>
+		        	<li><a id="coins" onclick="useStar()"><i class="material-icons left">local_atm</i>X</a></li>
+		        	<li><a id="FBphoto_sticker"></a></li>
+					<a id="fb_login_btn" scope="public_profile,email" href="javascript:void(0);" onclick="checkLoginState()" class="waves-effect waves-light btn-flat">
+						<text class="fa fa-facebook"></text>Login</a>
+		      	</ul>
+		    </div>
+		</nav>
+
+		<!-- Sort的地方 -->
+		<ul class="collapsible" data-collapsible="accordion" style="margin-top:-3px;">
+		    <li>
+		      	<div class="collapsible-header" >
+		      		<i class="material-icons">filter_drama</i>咩甲蝦？
+		      	</div>
+		      	<div class="collapsible-body" >
+		      		<p>依照自己的喜好來分類吧！</p>
+		      		<div id="dropDown" class="input-field col s12" style="margin-left:8px;">
+							<form id = "form1" class="ey">
+							    <select name="type1">
+							      	<option value="" disabled selected>要吃哪餐</option>
+							      	<option value="早餐">早餐</option>
+							      	<option value="早午餐">早午餐</option>
+							      	<option value="中餐">中餐</option>
+							      	<option value="下午茶">下午茶</option>
+							      	<option value="晚餐">晚餐</option>
+							      	<option value="宵夜">宵夜</option>
+							    </select>
+							</form>
+						    <form id = "form2" class="ey">
+						    	<select name="type2">
+							      	<option value="" disabled selected>種類</option>
+							        <option value="台式">台式</option>
+							      	<option value="中式">中式</option>
+							      	<option value="西式">西式</option>
+							      	<option value="泰式">泰式</option>
+							      	<option value="義式">義式</option>
+							      	<option value="日式">日式</option>
+							      	<option value="韓式">韓式</option>
+							      	<option value="法式">法式</option>
+							      	<option value="越南">越南</option>
+							      	<option value="印度">印度</option>
+							      	<option value="其他">其他</option>
+							    </select>
+						    </form>
+						</br>
+						    <button class="btn waves-effect waves-light" type="submit" name="action" onclick="Sort()" style="margin-top:10px; margin-left:15px;">咩甲蝦<i class="material-icons right">send</i></button>
+					</div>
+		      	</div>
+		    </li>
+		</ul>
+ 		<!--Preloader -->
+	    <div id = "preloader" class="col s12 m4 center">
+            <div class="preloader-wrapper big active">
+              <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+                  <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+
+              <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+                  <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+
+              <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+                  <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+              <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+                  <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+		<!-- PO朋友文顯示的地方 -->
+		<div id="main_map" style="display:none;"></div>
+		<div id="ShowNews" class = "container">
+		</div>
+			<!-- 		floating button is down here   -->
+		<div class="fixed-action-btn" style="bottom: 45px; right: 24px; ">
+          <a href="/Post" class="btn-floating btn-large light-blue darken-1" id="search">
+             <i class="material-icons" >mode_edit</i>
+          </a>
+        </div>
+	</body>
+</html>

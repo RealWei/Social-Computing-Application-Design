@@ -1,0 +1,1334 @@
+{
+  "friends": {
+    "data": [
+      {
+        "name": "Frank Wong",
+        "id": "1404396400"
+      },
+      {
+        "name": "Cheng-Yu Hsu",
+        "id": "1623579989"
+      },
+      {
+        "name": "Kelvin Hsu",
+        "id": "1830584989"
+      },
+      {
+        "name": "林彥辰",
+        "id": "100000050830485"
+      },
+      {
+        "name": "Po-Hsun Chen",
+        "id": "871616692852450"
+      },
+      {
+        "name": "Sean Hsieh",
+        "id": "100000169083126"
+      },
+      {
+        "name": "詹易衡",
+        "id": "100000212223009"
+      },
+      {
+        "name": "高柏凱",
+        "id": "859134117439486",
+        "music": {
+          "data": [
+            {
+              "name": "開水小姐",
+              "id": "161063263964856"
+            },
+            {
+              "name": "世新大學國樂社",
+              "id": "113725585433296"
+            },
+            {
+              "name": "Goosehouse.jp",
+              "id": "213238282024922"
+            },
+            {
+              "name": "成大國樂",
+              "id": "487022841317929"
+            },
+            {
+              "name": "林俊傑  JJ Lin",
+              "id": "193480161484"
+            },
+            {
+              "name": "Hatsune Miku",
+              "id": "10150149727825637"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "MTYxMDYzMjYzOTY0ODU2",
+              "after": "MTAxNTAxNDk3Mjc4MjU2MzcZD"
+            }
+          }
+        },
+        "movies": {
+          "data": [
+            {
+              "name": "世新大學101傳技展新聞一乙 - 【夢・鄉】",
+              "id": "173637082794886"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "MTczNjM3MDgyNzk0ODg2",
+              "after": "MTczNjM3MDgyNzk0ODg2"
+            }
+          }
+        },
+        "likes": {
+          "data": [
+            {
+              "name": "亞紀 Aki",
+              "id": "836492369706025"
+            },
+            {
+              "name": "開水小姐",
+              "id": "161063263964856"
+            },
+            {
+              "name": "Could Be cafe 庫比咖啡",
+              "id": "1053652734645174"
+            },
+            {
+              "name": "日本自助旅遊中毒者",
+              "id": "133251754149"
+            },
+            {
+              "name": "小琪 - AKi",
+              "id": "589933701104840"
+            },
+            {
+              "name": "爆料公社",
+              "id": "162608724089621"
+            },
+            {
+              "name": "爆料公社",
+              "id": "425640084262520"
+            },
+            {
+              "name": "一中屌褲",
+              "id": "349545561802785"
+            },
+            {
+              "name": "Figure坑底生存戰略！",
+              "id": "138787186265259"
+            },
+            {
+              "name": "Hitomi TW Cosplayer",
+              "id": "309315879107750"
+            },
+            {
+              "name": "TwinBox",
+              "id": "111608728951622"
+            },
+            {
+              "name": "赤鬼伯伯",
+              "id": "1896360823837011"
+            },
+            {
+              "name": "Cure & WorldCosplay",
+              "id": "159526597487055"
+            },
+            {
+              "name": "Zero Cosplay",
+              "id": "117116795164561"
+            },
+            {
+              "name": "御風",
+              "id": "414530218749744"
+            },
+            {
+              "name": "Change Way  箐箐兒",
+              "id": "146559448727896"
+            },
+            {
+              "name": "櫻葉きつね",
+              "id": "353849984630079"
+            },
+            {
+              "name": "Luffy Cosplayer",
+              "id": "402786573131114"
+            },
+            {
+              "name": "Q.azieru的塗鴉部屋",
+              "id": "745882348791930"
+            },
+            {
+              "name": "肉感少女-Neneko",
+              "id": "206168216123070"
+            },
+            {
+              "name": "台灣蕉神 Reco",
+              "id": "811906412235145"
+            },
+            {
+              "name": "Momoiroreku Cosplay",
+              "id": "129796923767010"
+            },
+            {
+              "name": "stayxxxx",
+              "id": "347407728663128"
+            },
+            {
+              "name": "知曦 - Cosplay",
+              "id": "851826581540501"
+            },
+            {
+              "name": "MIKE -ミケ- Fansite",
+              "id": "778725948841325"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "ODM2NDkyMzY5NzA2MDI1",
+              "after": "Nzc4NzI1OTQ4ODQxMzI1"
+            },
+            "next": "https://graph.facebook.com/v2.5/859134117439486/likes?access_token=CAACEdEose0cBAKSZBfznKgUS05fQm87JRljOmxFAocnmHdufSfv347EqzcF4FvbXQOzvI8ar2qSoza80qfGWBEJDUbY3N4OsJwHgFbpkKNyRxD4JhRvKtos6Uis96FnCqs6rVJ1isKCkhd7LXQPuablJ3nnqKiJuNKNIxTiou1HkFoOJiKLcpZCBbewkMV4XpSYIM4jxZAD5IxZBfwjM&pretty=0&fields=name&limit=25&after=Nzc4NzI1OTQ4ODQxMzI1"
+          }
+        }
+      },
+      {
+        "name": "陳鈞",
+        "id": "785011278185152",
+        "music": {
+          "data": [
+            {
+              "name": "V-XinHua",
+              "id": "815136028543466"
+            },
+            {
+              "name": "『鏡音リンx鏡音レン』Kagamine Rin x Kagamine Len 橘蕉/蕉橘粉絲團",
+              "id": "555965074478615"
+            },
+            {
+              "name": "Lovelive！",
+              "id": "2098866353585953"
+            },
+            {
+              "name": "Love Live! μ's",
+              "id": "360915007340040"
+            },
+            {
+              "name": "鍾秀雅音樂手作坊",
+              "id": "1386088318331709"
+            },
+            {
+              "name": "ClariS",
+              "id": "140492209347778"
+            },
+            {
+              "name": "灼眼的夏娜",
+              "id": "109839065710939"
+            },
+            {
+              "name": "TheIshter",
+              "id": "170849542990427"
+            },
+            {
+              "name": "秋山澪@K-ON",
+              "id": "113744125322612"
+            },
+            {
+              "name": "~♫ ♥ K-On! ♥ ♫ ~",
+              "id": "132405780134371"
+            },
+            {
+              "name": "GuMi MeGPoId",
+              "id": "202658206419619"
+            },
+            {
+              "name": "K-On!",
+              "id": "316021849170"
+            },
+            {
+              "name": "Hatsune Mikuo/初音ミクオ",
+              "id": "109850542439770"
+            },
+            {
+              "name": "K-ON",
+              "id": "214296381918633"
+            },
+            {
+              "name": "Mio Akiyama",
+              "id": "197454750303020"
+            },
+            {
+              "name": "Mio Akiyama",
+              "id": "124587554268095"
+            },
+            {
+              "name": "Azusa Nakano",
+              "id": "137323956329602"
+            },
+            {
+              "name": "Gumi Megpoid",
+              "id": "124562904285399"
+            },
+            {
+              "name": "Hatsune Miku",
+              "id": "115002605178297"
+            },
+            {
+              "name": "Kaito (Vocaloid)",
+              "id": "120890641326916"
+            },
+            {
+              "name": "K-ON! Music",
+              "id": "157066131019154"
+            },
+            {
+              "name": "Miku Hatsune",
+              "id": "148012535238303"
+            },
+            {
+              "name": "朝比奈實玖瑠",
+              "id": "105497926150996"
+            },
+            {
+              "name": "涼宮春日",
+              "id": "170419742974512"
+            },
+            {
+              "name": "Yuki Nagato",
+              "id": "109636259055928"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "ODE1MTM2MDI4NTQzNDY2",
+              "after": "MTA5NjM2MjU5MDU1OTI4"
+            },
+            "next": "https://graph.facebook.com/v2.5/785011278185152/music?access_token=CAACEdEose0cBAKSZBfznKgUS05fQm87JRljOmxFAocnmHdufSfv347EqzcF4FvbXQOzvI8ar2qSoza80qfGWBEJDUbY3N4OsJwHgFbpkKNyRxD4JhRvKtos6Uis96FnCqs6rVJ1isKCkhd7LXQPuablJ3nnqKiJuNKNIxTiou1HkFoOJiKLcpZCBbewkMV4XpSYIM4jxZAD5IxZBfwjM&pretty=0&fields=name&limit=25&after=MTA5NjM2MjU5MDU1OTI4"
+          }
+        },
+        "movies": {
+          "data": [
+            {
+              "name": "Summer Wars",
+              "id": "107890452578094"
+            },
+            {
+              "name": "Hunter X Hunter",
+              "id": "102159843187335"
+            },
+            {
+              "name": "不能",
+              "id": "108863475803771"
+            },
+            {
+              "name": "日本动漫迷",
+              "id": "253718141383"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "MTA3ODkwNDUyNTc4MDk0",
+              "after": "MjUzNzE4MTQxMzgz"
+            }
+          }
+        },
+        "likes": {
+          "data": [
+            {
+              "name": "Injoe studio",
+              "id": "780793002007737"
+            },
+            {
+              "name": "淘寶網台灣粉絲團",
+              "id": "394548020559723"
+            },
+            {
+              "name": "Thingiverse",
+              "id": "198480370167821"
+            },
+            {
+              "name": "七夜の幻想部屋",
+              "id": "391927220903275"
+            },
+            {
+              "name": "J.U.",
+              "id": "258782907587982"
+            },
+            {
+              "name": "Inplus 3d列印良品",
+              "id": "566889070000765"
+            },
+            {
+              "name": "人類超有病 SICK HUMAN",
+              "id": "239199176217110"
+            },
+            {
+              "name": "驊哥電腦 客製化筆電專家",
+              "id": "1461107274152899"
+            },
+            {
+              "name": "CJSCOPE 喜傑獅 You Design! We Make",
+              "id": "164697886875541"
+            },
+            {
+              "name": "萌動漫の領域",
+              "id": "109378962561691"
+            },
+            {
+              "name": "Microsoft Edge",
+              "id": "442800052561465"
+            },
+            {
+              "name": "宏恩法律事務所",
+              "id": "489650964540050"
+            },
+            {
+              "name": "Cotin Doll World - BJD speciality shop",
+              "id": "120645331465959"
+            },
+            {
+              "name": "Doll House",
+              "id": "572083669605801"
+            },
+            {
+              "name": "我家遊樂器",
+              "id": "242566355871714"
+            },
+            {
+              "name": "G-Shock-驚嚇客",
+              "id": "1478772932381720"
+            },
+            {
+              "name": "東海大學資工系系學會",
+              "id": "323854297711707"
+            },
+            {
+              "name": "Hello Coolcat Taiwan Doll Accessories",
+              "id": "503242843063704"
+            },
+            {
+              "name": "※ ののHouse ※ BJD DD WORK SHOP",
+              "id": "840108992702202"
+            },
+            {
+              "name": "転送コム｜tenso.com",
+              "id": "105525509518376"
+            },
+            {
+              "name": "The BLY Couture",
+              "id": "127004847326365"
+            },
+            {
+              "name": "NANGA 漫評",
+              "id": "107546342933424"
+            },
+            {
+              "name": "感電少女注意報",
+              "id": "759258784200208"
+            },
+            {
+              "name": "Asano-咲",
+              "id": "115573352118779"
+            },
+            {
+              "name": "Skytube　スカイチューブ",
+              "id": "233381010072490"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "NzgwNzkzMDAyMDA3NzM3",
+              "after": "MjMzMzgxMDEwMDcyNDkw"
+            },
+            "next": "https://graph.facebook.com/v2.5/785011278185152/likes?access_token=CAACEdEose0cBAKSZBfznKgUS05fQm87JRljOmxFAocnmHdufSfv347EqzcF4FvbXQOzvI8ar2qSoza80qfGWBEJDUbY3N4OsJwHgFbpkKNyRxD4JhRvKtos6Uis96FnCqs6rVJ1isKCkhd7LXQPuablJ3nnqKiJuNKNIxTiou1HkFoOJiKLcpZCBbewkMV4XpSYIM4jxZAD5IxZBfwjM&pretty=0&fields=name&limit=25&after=MjMzMzgxMDEwMDcyNDkw"
+          }
+        }
+      },
+      {
+        "name": "戴宏穎",
+        "id": "100000331794104"
+      },
+      {
+        "name": "王慈君",
+        "id": "894240843937835",
+        "music": {
+          "data": [
+            {
+              "name": "洪安妮",
+              "id": "186145341433806"
+            },
+            {
+              "name": "宇宙人",
+              "id": "184550356791"
+            },
+            {
+              "name": "S.H.E",
+              "id": "77009812009"
+            },
+            {
+              "name": "曾沛慈 Pets Tseng",
+              "id": "1494135047498188"
+            },
+            {
+              "name": "八三夭阿璞",
+              "id": "259085554118276"
+            },
+            {
+              "name": "MP魔幻力量鼓鼓",
+              "id": "287071681308958"
+            },
+            {
+              "name": "NTHU x FJU 2014跨校耶舞 交響情人夢",
+              "id": "970078466353630"
+            },
+            {
+              "name": "韋禮安 Weibird",
+              "id": "105900769439366"
+            },
+            {
+              "name": "支持五月天粉絲團",
+              "id": "1465062870407409"
+            },
+            {
+              "name": "輕晨電 Morning call",
+              "id": "162082903824119"
+            },
+            {
+              "name": "林俊傑  JJ Lin",
+              "id": "193480161484"
+            },
+            {
+              "name": "五月天 士杰",
+              "id": "426324780756539"
+            },
+            {
+              "name": "Bii 畢書盡",
+              "id": "167474846596252"
+            },
+            {
+              "name": "郭靜 Claire",
+              "id": "97385523899"
+            },
+            {
+              "name": "黃甄妮 （妮妮）",
+              "id": "230539533708763"
+            },
+            {
+              "name": "相信音樂國際股份有限公司",
+              "id": "234699196593190"
+            },
+            {
+              "name": "伍佰&China Blue _ 伍力全開後援會",
+              "id": "108446369197504"
+            },
+            {
+              "name": "閃耀星光曾沛慈國際後援會",
+              "id": "123397524351977"
+            },
+            {
+              "name": "郭采潔",
+              "id": "111171231520"
+            },
+            {
+              "name": "Mayday",
+              "id": "112255662120594"
+            },
+            {
+              "name": "吉他補給",
+              "id": "174072942606921"
+            },
+            {
+              "name": "五月天 Mayday",
+              "id": "182099101856685"
+            },
+            {
+              "name": "Mayday - 五月天",
+              "id": "19180549520"
+            },
+            {
+              "name": "ＭＡＹＤＡＹ五月天－阿信",
+              "id": "168519239799"
+            },
+            {
+              "name": "Ashin♥陳信宏♥五月天♥MAYDAY",
+              "id": "135315526834"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "MTg2MTQ1MzQxNDMzODA2",
+              "after": "MTM1MzE1NTI2ODM0"
+            },
+            "next": "https://graph.facebook.com/v2.5/894240843937835/music?access_token=CAACEdEose0cBAKSZBfznKgUS05fQm87JRljOmxFAocnmHdufSfv347EqzcF4FvbXQOzvI8ar2qSoza80qfGWBEJDUbY3N4OsJwHgFbpkKNyRxD4JhRvKtos6Uis96FnCqs6rVJ1isKCkhd7LXQPuablJ3nnqKiJuNKNIxTiou1HkFoOJiKLcpZCBbewkMV4XpSYIM4jxZAD5IxZBfwjM&pretty=0&fields=name&limit=25&after=MTM1MzE1NTI2ODM0"
+          }
+        },
+        "movies": {
+          "data": [
+            {
+              "name": "熊麻吉",
+              "id": "437561793058513"
+            },
+            {
+              "name": "樓下的房客 The Tenants Downstairs",
+              "id": "840210742735268"
+            },
+            {
+              "name": "黃飛鴻之英雄有夢",
+              "id": "561399410636322"
+            },
+            {
+              "name": "等一個人咖啡 Café. Waiting. Love",
+              "id": "1410737399164545"
+            },
+            {
+              "name": "大尾鱸鰻",
+              "id": "479749505375962"
+            },
+            {
+              "name": "哆啦A梦",
+              "id": "126612827350722"
+            },
+            {
+              "name": "蜘蛛人:驚奇再起",
+              "id": "206760882694684"
+            },
+            {
+              "name": "香港院線",
+              "id": "174821949267138"
+            },
+            {
+              "name": "High School Musical",
+              "id": "108013152554665"
+            },
+            {
+              "name": "Camp Rock",
+              "id": "108238579204469"
+            },
+            {
+              "name": "五月天追夢3DNA",
+              "id": "130631950356723"
+            },
+            {
+              "name": "那些年，我們一起追的女孩 You Are the Apple of My Eye",
+              "id": "210829382271935"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "NDM3NTYxNzkzMDU4NTEz",
+              "after": "MjEwODI5MzgyMjcxOTM1"
+            }
+          }
+        },
+        "likes": {
+          "data": [
+            {
+              "name": "Colaz酷樂網 at NTHU 清華大學",
+              "id": "1083133571714671"
+            },
+            {
+              "name": "名偵探柯南展 連載20周年紀念",
+              "id": "871691696240054"
+            },
+            {
+              "name": "張良皓 兩號 Chang Liang Hao",
+              "id": "1624805887772749"
+            },
+            {
+              "name": "2014nthu授權廠商",
+              "id": "260824770791801"
+            },
+            {
+              "name": "PEERT",
+              "id": "1629761730580105"
+            },
+            {
+              "name": "洪安妮",
+              "id": "186145341433806"
+            },
+            {
+              "name": "莊鵑瑛 - 小球",
+              "id": "273287692810098"
+            },
+            {
+              "name": "晚安詩",
+              "id": "177554425767833"
+            },
+            {
+              "name": "Fuying & Sam",
+              "id": "342298885866324"
+            },
+            {
+              "name": "Apple授權校園店 清華大學",
+              "id": "793224824052227"
+            },
+            {
+              "name": "張書豪 Bryan, Shu-Hao Chang",
+              "id": "112997502059695"
+            },
+            {
+              "name": "笑話清大",
+              "id": "924822644194595"
+            },
+            {
+              "name": "戀愛鄰距離",
+              "id": "1732996420254662"
+            },
+            {
+              "name": "參一腳",
+              "id": "323304201196212"
+            },
+            {
+              "name": "周曉涵",
+              "id": "371190536699"
+            },
+            {
+              "name": "海賊狂歡祭－One Piece動畫15週年特典",
+              "id": "148278088855807"
+            },
+            {
+              "name": "許美中 Hsu Mei Chung",
+              "id": "825254560926265"
+            },
+            {
+              "name": "邵雨薇",
+              "id": "116251515113831"
+            },
+            {
+              "name": "愛上哥們",
+              "id": "1654382108175517"
+            },
+            {
+              "name": "宋芸樺 Vivian Sung",
+              "id": "440923442702838"
+            },
+            {
+              "name": "李興國 DAVID",
+              "id": "486945494807427"
+            },
+            {
+              "name": "張懷秋",
+              "id": "921024077967857"
+            },
+            {
+              "name": "咱誌。線上生活雜誌平台",
+              "id": "747519358696057"
+            },
+            {
+              "name": "台灣廉價航空福利社",
+              "id": "230134660393770"
+            },
+            {
+              "name": "趣味新聞",
+              "id": "1559812230947217"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "MTA4MzEzMzU3MTcxNDY3MQZDZD",
+              "after": "MTU1OTgxMjIzMDk0NzIxNwZDZD"
+            },
+            "next": "https://graph.facebook.com/v2.5/894240843937835/likes?access_token=CAACEdEose0cBAKSZBfznKgUS05fQm87JRljOmxFAocnmHdufSfv347EqzcF4FvbXQOzvI8ar2qSoza80qfGWBEJDUbY3N4OsJwHgFbpkKNyRxD4JhRvKtos6Uis96FnCqs6rVJ1isKCkhd7LXQPuablJ3nnqKiJuNKNIxTiou1HkFoOJiKLcpZCBbewkMV4XpSYIM4jxZAD5IxZBfwjM&pretty=0&fields=name&limit=25&after=MTU1OTgxMjIzMDk0NzIxNwZDZD"
+          }
+        }
+      },
+      {
+        "name": "陳盟仁",
+        "id": "750023798389365",
+        "music": {
+          "data": [
+            {
+              "name": "莊向峰",
+              "id": "368516859983794"
+            },
+            {
+              "name": "那我懂你意思了",
+              "id": "178909625485983"
+            },
+            {
+              "name": "ONE OK ROCK",
+              "id": "127809730632516"
+            },
+            {
+              "name": "清大資工系卡K 卡K之巔",
+              "id": "350396961730323"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "MzY4NTE2ODU5OTgzNzk0",
+              "after": "MzUwMzk2OTYxNzMwMzIz"
+            }
+          }
+        },
+        "movies": {
+          "data": [
+            {
+              "name": "Begin Again",
+              "id": "272757176233010"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "MjcyNzU3MTc2MjMzMDEw",
+              "after": "MjcyNzU3MTc2MjMzMDEw"
+            }
+          }
+        },
+        "likes": {
+          "data": [
+            {
+              "name": "Fersonal男性穿搭服務",
+              "id": "487080161369677"
+            },
+            {
+              "name": "清大金鋼狼",
+              "id": "1450561261865433"
+            },
+            {
+              "name": "吳兆南相聲劇藝社",
+              "id": "117973421555331"
+            },
+            {
+              "name": "2015清大資工&資應中畢典",
+              "id": "590218181120552"
+            },
+            {
+              "name": "靠北工程師",
+              "id": "1632027893700148"
+            },
+            {
+              "name": "Begin Again",
+              "id": "272757176233010"
+            },
+            {
+              "name": "夥拼 ‧ 和你一塊兒",
+              "id": "1049239931769955"
+            },
+            {
+              "name": "梅竹籌備委員會",
+              "id": "158800937594805"
+            },
+            {
+              "name": "嫩切雞肉 chickencutcut",
+              "id": "1591609131070688"
+            },
+            {
+              "name": "Dcard",
+              "id": "178875832200695"
+            },
+            {
+              "name": "熊掌糖鋪",
+              "id": "984209301596183"
+            },
+            {
+              "name": "PTT01",
+              "id": "1724597141099774"
+            },
+            {
+              "name": "《排球少年！！ - ハイキュー！！》",
+              "id": "1459266017641687"
+            },
+            {
+              "name": "莊向峰",
+              "id": "368516859983794"
+            },
+            {
+              "name": "排球少年經典語錄",
+              "id": "1409900275947617"
+            },
+            {
+              "name": "Junyou Liu",
+              "id": "1543669879203988"
+            },
+            {
+              "name": "SUPIN Aisukurimu Japanese Tea",
+              "id": "567939536603968"
+            },
+            {
+              "name": "Friendo 粉多任務社群",
+              "id": "329189253833572"
+            },
+            {
+              "name": "集鮮餐廳",
+              "id": "608624849252511"
+            },
+            {
+              "name": "阿嘟比拉",
+              "id": "406951112660990"
+            },
+            {
+              "name": "Morguefile",
+              "id": "427233100654301"
+            },
+            {
+              "name": "Freerange Stock",
+              "id": "52023870433"
+            },
+            {
+              "name": "Open HCI 人機互動工作坊",
+              "id": "711503132244489"
+            },
+            {
+              "name": "清大梅友影展film FEST in NTHU",
+              "id": "264727983714924"
+            },
+            {
+              "name": "出國買什麼?",
+              "id": "183386891836640"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "NDg3MDgwMTYxMzY5Njc3",
+              "after": "MTgzMzg2ODkxODM2NjQw"
+            },
+            "next": "https://graph.facebook.com/v2.5/750023798389365/likes?access_token=CAACEdEose0cBAKSZBfznKgUS05fQm87JRljOmxFAocnmHdufSfv347EqzcF4FvbXQOzvI8ar2qSoza80qfGWBEJDUbY3N4OsJwHgFbpkKNyRxD4JhRvKtos6Uis96FnCqs6rVJ1isKCkhd7LXQPuablJ3nnqKiJuNKNIxTiou1HkFoOJiKLcpZCBbewkMV4XpSYIM4jxZAD5IxZBfwjM&pretty=0&fields=name&limit=25&after=MTgzMzg2ODkxODM2NjQw"
+          }
+        }
+      },
+      {
+        "name": "劉彥甫",
+        "id": "788354081224182"
+      },
+      {
+        "name": "吳岱洋",
+        "id": "692662957474222"
+      },
+      {
+        "name": "鄭先淳",
+        "id": "630461050363808",
+        "music": {
+          "data": [
+            {
+              "name": "Marching Mettle 麻糬饅頭",
+              "id": "225002961010352"
+            },
+            {
+              "name": "Tiffany 티파니",
+              "id": "209450969201635"
+            },
+            {
+              "name": "少女時代",
+              "id": "260872860656975"
+            },
+            {
+              "name": "Im Yoona (The Goddess of SNSD)",
+              "id": "157150927682399"
+            },
+            {
+              "name": "古典好好聽  Classicalmusic to go",
+              "id": "274373446072"
+            },
+            {
+              "name": "소녀시대(Girls' Generation)",
+              "id": "216732611680045"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "MjI1MDAyOTYxMDEwMzUy",
+              "after": "MjE2NzMyNjExNjgwMDQ1"
+            }
+          }
+        },
+        "movies": {
+          "data": [
+            {
+              "name": "Transformers",
+              "id": "180774635291325"
+            },
+            {
+              "name": "Fullmetal Alchemist: The Sacred Star of Milos",
+              "id": "130534410362009"
+            },
+            {
+              "name": "夏天協奏曲 Summer Times",
+              "id": "166541585944"
+            },
+            {
+              "name": "Inception",
+              "id": "91290503700"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "MTgwNzc0NjM1MjkxMzI1",
+              "after": "OTEyOTA1MDM3MDAZD"
+            }
+          }
+        },
+        "likes": {
+          "data": [
+            {
+              "name": "Color Collection",
+              "id": "706698816131737"
+            },
+            {
+              "name": "《Togethey》五系聯合耶誕舞會",
+              "id": "925711404171633"
+            },
+            {
+              "name": "陳建禎 CHEN Chien-Chen",
+              "id": "1082665051748450"
+            },
+            {
+              "name": "Oguma水美媒的家-中壢旗艦店",
+              "id": "1517190028604338"
+            },
+            {
+              "name": "丁庭 Sandrine Ding",
+              "id": "878683332208107"
+            },
+            {
+              "name": "WooTalk 吾聊",
+              "id": "1564809437137359"
+            },
+            {
+              "name": "Candice",
+              "id": "244524059021859"
+            },
+            {
+              "name": "外拍甜心涼－Ivy",
+              "id": "246240228893695"
+            },
+            {
+              "name": "FlyingV",
+              "id": "274575209225142"
+            },
+            {
+              "name": "Vicky",
+              "id": "1567934056760846"
+            },
+            {
+              "name": "Havaianas",
+              "id": "58922621874"
+            },
+            {
+              "name": "Oreilly歐萊禮中文圖書",
+              "id": "170052136377155"
+            },
+            {
+              "name": "削蘋果",
+              "id": "341095745977657"
+            },
+            {
+              "name": "Marching Mettle 麻糬饅頭",
+              "id": "225002961010352"
+            },
+            {
+              "name": "季風文教基金會 Zephyr Foundation",
+              "id": "660666813989374"
+            },
+            {
+              "name": "國北數位 Again a Game  新一代設計展",
+              "id": "632340590229708"
+            },
+            {
+              "name": "台大盃男排全明星賽",
+              "id": "740833075957347"
+            },
+            {
+              "name": "ShareCourse",
+              "id": "429769233749122"
+            },
+            {
+              "name": "UNI‧KM 悠旅金門",
+              "id": "704942669613607"
+            },
+            {
+              "name": "PCuSER密技爆料團",
+              "id": "110809778952140"
+            },
+            {
+              "name": "MyCard HK",
+              "id": "253879821296033"
+            },
+            {
+              "name": "神貓便利屋",
+              "id": "137211033042099"
+            },
+            {
+              "name": "PTTBeauty表特板",
+              "id": "130958293642994"
+            },
+            {
+              "name": "張采寧Winnie",
+              "id": "634446993298300"
+            },
+            {
+              "name": "第二屆國北排球友誼聯盟",
+              "id": "747486841988124"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "NzA2Njk4ODE2MTMxNzM3",
+              "after": "NzQ3NDg2ODQxOTg4MTI0"
+            },
+            "next": "https://graph.facebook.com/v2.5/630461050363808/likes?access_token=CAACEdEose0cBAKSZBfznKgUS05fQm87JRljOmxFAocnmHdufSfv347EqzcF4FvbXQOzvI8ar2qSoza80qfGWBEJDUbY3N4OsJwHgFbpkKNyRxD4JhRvKtos6Uis96FnCqs6rVJ1isKCkhd7LXQPuablJ3nnqKiJuNKNIxTiou1HkFoOJiKLcpZCBbewkMV4XpSYIM4jxZAD5IxZBfwjM&pretty=0&fields=name&limit=25&after=NzQ3NDg2ODQxOTg4MTI0"
+          }
+        }
+      },
+      {
+        "name": "Yu Hsuan Liu",
+        "id": "492812787517295",
+        "music": {
+          "data": [
+            {
+              "name": "青郊草地音樂季 清大舞台",
+              "id": "911755428916933"
+            },
+            {
+              "name": "清華好聲音",
+              "id": "336454076550680"
+            },
+            {
+              "name": "NTHU x FJU 2014跨校耶舞 交響情人夢",
+              "id": "970078466353630"
+            },
+            {
+              "name": "莊向峰",
+              "id": "368516859983794"
+            },
+            {
+              "name": "清大資工系卡k-終極卡k",
+              "id": "1397190673897208"
+            },
+            {
+              "name": "清大資工系卡K 卡K之巔",
+              "id": "350396961730323"
+            },
+            {
+              "name": "海鷗‧K人聲樂團 Seagull-K Vocal Band",
+              "id": "348370164549"
+            },
+            {
+              "name": "林俊傑  JJ Lin",
+              "id": "193480161484"
+            },
+            {
+              "name": "Chris Brown",
+              "id": "6329881653"
+            },
+            {
+              "name": "Kelly Clarkson",
+              "id": "18481194560"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "OTExNzU1NDI4OTE2OTMz",
+              "after": "MTg0ODExOTQ1NjAZD"
+            }
+          }
+        },
+        "movies": {
+          "data": [
+            {
+              "name": "清大戲劇盃 -資工隊",
+              "id": "166164596856885"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "MTY2MTY0NTk2ODU2ODg1",
+              "after": "MTY2MTY0NTk2ODU2ODg1"
+            }
+          }
+        },
+        "likes": {
+          "data": [
+            {
+              "name": "青郊草地音樂季 清大舞台",
+              "id": "911755428916933"
+            },
+            {
+              "name": "Wellmet 匿名揪團吧！",
+              "id": "970187969691953"
+            },
+            {
+              "name": "清華好聲音",
+              "id": "336454076550680"
+            },
+            {
+              "name": "パパ漢堡 (88 Burger)",
+              "id": "112762035511277"
+            },
+            {
+              "name": "NTHU x FJU 2014跨校耶舞 交響情人夢",
+              "id": "970078466353630"
+            },
+            {
+              "name": "莊向峰",
+              "id": "368516859983794"
+            },
+            {
+              "name": "核四懂不懂",
+              "id": "1496672113895248"
+            },
+            {
+              "name": "清大資工系卡k-終極卡k",
+              "id": "1397190673897208"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "OTExNzU1NDI4OTE2OTMz",
+              "after": "MTM5NzE5MDY3Mzg5NzIwOAZDZD"
+            },
+            "next": "https://graph.facebook.com/v2.5/492812787517295/likes?access_token=CAACEdEose0cBAKSZBfznKgUS05fQm87JRljOmxFAocnmHdufSfv347EqzcF4FvbXQOzvI8ar2qSoza80qfGWBEJDUbY3N4OsJwHgFbpkKNyRxD4JhRvKtos6Uis96FnCqs6rVJ1isKCkhd7LXQPuablJ3nnqKiJuNKNIxTiou1HkFoOJiKLcpZCBbewkMV4XpSYIM4jxZAD5IxZBfwjM&pretty=0&fields=name&limit=25&after=MTM5NzE5MDY3Mzg5NzIwOAZDZD"
+          }
+        }
+      },
+      {
+        "name": "Yu Cong Hong",
+        "id": "323792231160947",
+        "music": {
+          "data": [
+            {
+              "name": "第八格人聲樂團",
+              "id": "768326049902358"
+            },
+            {
+              "name": "Onippon 日本藝能情報站",
+              "id": "199930290046"
+            },
+            {
+              "name": "Goosehouse.jp",
+              "id": "213238282024922"
+            },
+            {
+              "name": "魏如萱 waa wei",
+              "id": "291139551002"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "NzY4MzI2MDQ5OTAyMzU4",
+              "after": "MjkxMTM5NTUxMDAy"
+            }
+          }
+        },
+        "likes": {
+          "data": [
+            {
+              "name": "谷阿莫 AmoGood",
+              "id": "1525959604282263"
+            },
+            {
+              "name": "每天來點負能量",
+              "id": "1426964200959890"
+            },
+            {
+              "name": "NTHU ilms Android",
+              "id": "1509259862729776"
+            },
+            {
+              "name": "NTHU Course",
+              "id": "1589821474634492"
+            },
+            {
+              "name": "三個字SunGuts Funny Medical Factory",
+              "id": "840304849371131"
+            },
+            {
+              "name": "Mr.elk",
+              "id": "270337476508254"
+            },
+            {
+              "name": "故事旅社storyhostel",
+              "id": "570324823067911"
+            },
+            {
+              "name": "嫩切雞肉 chickencutcut",
+              "id": "1591609131070688"
+            },
+            {
+              "name": "第八格人聲樂團",
+              "id": "768326049902358"
+            },
+            {
+              "name": "清大通識課程平台",
+              "id": "582853425193999"
+            },
+            {
+              "name": "Shazam",
+              "id": "16577276577"
+            },
+            {
+              "name": "UrSchool NCKU 成大分會",
+              "id": "565591390215125"
+            },
+            {
+              "name": "石川綾子（Ayako Ishikawa）FBページ",
+              "id": "476382005706588"
+            },
+            {
+              "name": "Onippon 日本藝能情報站",
+              "id": "199930290046"
+            },
+            {
+              "name": "リーガルハイ（フジテレビ）",
+              "id": "215643521875179"
+            },
+            {
+              "name": "J-Total Music",
+              "id": "208464482633792"
+            },
+            {
+              "name": "Goosehouse.jp",
+              "id": "213238282024922"
+            },
+            {
+              "name": "交通大學抓馬盃",
+              "id": "249964301793241"
+            },
+            {
+              "name": "電工 06 X 抓馬 2013 X 蝴蝶 時光",
+              "id": "548873298523232"
+            },
+            {
+              "name": "清大資工系學會",
+              "id": "127391974018841"
+            },
+            {
+              "name": "清大魂",
+              "id": "533829213320947"
+            },
+            {
+              "name": "NTHU 課指組",
+              "id": "119827912483"
+            },
+            {
+              "name": "親愛的，我愛上別人了",
+              "id": "621643097865632"
+            },
+            {
+              "name": "廉政英雄",
+              "id": "228649773850882"
+            },
+            {
+              "name": "縣立二林高級中學",
+              "id": "242537282484873"
+            }
+          ],
+          "paging": {
+            "cursors": {
+              "before": "MTUyNTk1OTYwNDI4MjI2MwZDZD",
+              "after": "MjQyNTM3MjgyNDg0ODcz"
+            },
+            "next": "https://graph.facebook.com/v2.5/323792231160947/likes?access_token=CAACEdEose0cBAKSZBfznKgUS05fQm87JRljOmxFAocnmHdufSfv347EqzcF4FvbXQOzvI8ar2qSoza80qfGWBEJDUbY3N4OsJwHgFbpkKNyRxD4JhRvKtos6Uis96FnCqs6rVJ1isKCkhd7LXQPuablJ3nnqKiJuNKNIxTiou1HkFoOJiKLcpZCBbewkMV4XpSYIM4jxZAD5IxZBfwjM&pretty=0&fields=name&limit=25&after=MjQyNTM3MjgyNDg0ODcz"
+          }
+        }
+      }
+    ],
+    "paging": {
+      "next": "https://graph.facebook.com/v2.5/100000146325265/friends?limit=50&fields=name,movies%7Bname%7D,music%7Bname%7D,likes%7Bname%7D&access_token=CAACEdEose0cBAKSZBfznKgUS05fQm87JRljOmxFAocnmHdufSfv347EqzcF4FvbXQOzvI8ar2qSoza80qfGWBEJDUbY3N4OsJwHgFbpkKNyRxD4JhRvKtos6Uis96FnCqs6rVJ1isKCkhd7LXQPuablJ3nnqKiJuNKNIxTiou1HkFoOJiKLcpZCBbewkMV4XpSYIM4jxZAD5IxZBfwjM&offset=50&__after_id=enc_AdDqwKbMZBrQNBgagBMtpCZAmhCnIx3otrwtKojm29Avutyciq03caHBwWvsU1yH41L9aFzJCJ3PjYsT9aq3WQmZByU"
+    },
+    "summary": {
+      "total_count": 367
+    }
+  },
+  "id": "100000146325265"
+}

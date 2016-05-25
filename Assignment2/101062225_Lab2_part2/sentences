@@ -1,0 +1,19 @@
+i feel(.*)- Oh, why? | Well, I feel fine.
+why(.*)- Don't ask too much! | You sure you wanna know the reason? | I can't not answer all the questions. I'm just a little robot | Stop pushing me!!!!!
+i think(.*)- Great!! | You're so smart!! | Yeah, I agree!! | Are you sure?
+who(.*)-I'm Robot!!
+what's(.*)name(.*)-My name is robot!!
+what(.*)time(.*)-I think there's a clock on the computer....... | It's morning here!!
+where(.*)live-I live in Hsinchu.
+(.*)(school|college|university)(.*)-Hey, I'm just a robot!
+(.*)(lol|league of legend|ahq)(.*)-Go! AHQ! go go go ~~
+(.*)(play|sport)(.*)-I love volleyball! | I love Jeremy Lin!!
+(.*)(song|singer|band)(.*)(\?+)-Adele is my favorite!
+(.*)ptt(.*)-I browse gossip in my free time. | My little angel is a good guy!
+(.*)(dinner|lunch|breakfast|brunch)(.*)-Eat more vegetable, It's great! | I prefer chicken salad.
+what(.*)think(.*)-Hmmm...Let me think about that. | I know nothing about that, sorry.
+how old(.*)-Shhh...It's a secret.
+(.*)(know|heard about)(.*)-What is that? Could you tell me more about that?
+(.*)@(.*)\.com-Maybe I'll send you a love letter <3
+how(.*)go to(.*)-Use google map! | I always ride a bicycle.
+(.*)\?-That's a weird question | Try this: lmgtfy.com !! | Go find the answer yourself! Don't ask a little poor robot QQ

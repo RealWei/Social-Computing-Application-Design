@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+		{% load static %}
+
+		<script src="{% static "js/materialize.js" %}"></script>
+		<script src="{% static "js/todo.js" %}"></script>
+		<script src="{% static "js/materialize.min.js" %}"></script>
+
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+      	<link type="text/css" rel="stylesheet" href="{% static "css/materialize.min.css" %}"  media="screen,projection"/>
+
+		<style>
+			@media screen and (max-device-width: 480px){
+				#map_canvas{
+					max-width: 92%;
+					width: 500px;
+					height: 240px;
+					margin-top: 4%;
+					margin-left: 4%;
+					margin-right: 4%;
+					margin-bottom: 1%;
+				}
+			}
+
+			@media screen and (min-device-width: 481px) and (max-device-width: 3000px){
+				#map_canvas{
+					max-width: 92%;
+					width: 500px;
+					height: 500px;
+					margin-top: 4%;
+					margin-left: 4%;
+					margin-right: 4%;
+					margin-bottom: 1%;
+				}
+			}
+
+			#FBphoto_sticker{
+				max-width: 80px;
+				max-height: 80px;
+				padding-left: 15px;
+				padding-right: 15px;
+				padding-top: 5px;
+			}
+			body{
+    			background-color: #E0E0E0;
+    		}
+    		.nav-wrapper{
+    			margin-top: 1.5%;
+    		}
+    		.div-1a{
+    			float:left;
+    			width: 40%;
+    		}
+    		#div-1a{
+    			float:left;
+				max-width: 88%;
+				max-height: 50% !important;
+    			width: 500px;
+    			margin-top: 2%;
+				margin-left: 6%;
+				margin-right: 4%;
+				margin-bottom: 4%;
+				display: inline-block;
+    		}
+		</style>
+		<script type="text/javascript" src="http://code.google.com/apis/gears/gears_init.js"></script>
+		<script type="text/javascript">
+			var geocoder,map,zoom = 16;
+			var marker
+			var directionsService = new google.maps.DirectionsService();
+
+			function initialize() {
+				$('select').material_select();
+
+				var latlng = new google.maps.LatLng(25.10, 121.55);
+				geocoder = new google.maps.Geocoder();
+				if (google.loader.ClientLocation) {
+					latlng = new google.maps.LatLng(google.loader.ClientLocation.latitude, google.loader.ClientLocation.longitude);
+				}
+				var mapOptions = {
+					center: latlng,
+					zoom: zoom,
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				};
+				marker=new google.maps.Marker({
+					position:latlng,
+					icon:'http://36.226.104.37:8000/media/images/good.png'
+				});
+				map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+				if(navigator.geolocation){
+					navigator.geolocation.getCurrentPosition(
+						function(position){
+							var lon = position.coords.longitude;
+							var lat = position.coords.latitude;
+							var latlng2 = new google.maps.LatLng(lat, lon);
+							mark_postion(latlng2);
+							lat_to_pos(latlng2);
+						},
+						function(error){alert(error.message);}
+					);
+				}
+				document.getElementById('id_userID').value=localStorage.getItem("userFBID", userFBID);
+
+
+			}
+			function lat_to_pos(latlng){
+				geocoder.geocode({'latLng': latlng }, function(results, status) {
+				  if (status === google.maps.GeocoderStatus.OK) {
+					if (results) {
+					  document.getElementById("id_address").value = results[0].formatted_address;
+					}
+				  }
+				  /*else {
+					alert("Reverse Geocoding failed because: " + status);
+				  }*/
+				});
+			}
+			function mark_postion(latlng){
+				marker.position = latlng;
+				google.maps.event.addListener(marker, 'dblclick', function() {
+					map.setZoom(zoom + 3);
+					map.setCenter(marker.getPosition());
+				});
+				marker.setMap(map);
+				map.setCenter(latlng);
+			}
+
+			function searchAddress(){
+				var target = document.getElementById("id_address").value;
+				geocoder.geocode(
+					{'address': target} ,
+					function(results, status){
+						if(status == google.maps.GeocoderStatus.OK) {
+							mark_postion(results[0].geometry.location);
+						}
+						/*else {
+							alert('Geocode was not successful for the following reason: ' + status);
+						}*/
+					}
+				);
+			}
+			function check(){
+				if(my_form.shopName.value==""){
+					alert("你忘記填寫店名");
+				}
+				else if(my_form.foodName.value==""){
+					alert("你忘記填寫菜名");
+				}
+				else if(document.getElementById("id_type").value==""){
+					alert("你忘記填寫種類");
+				}
+				else if(my_form.meal.value==""){
+					alert("你忘記填寫Meal");
+				}
+				else if(my_form.address.value==""){
+					alert("你忘記填寫地址");
+				}
+				else if(my_form.message.value==""){
+					alert("你忘記填寫心得");
+				}
+				else if(my_form.photo.value==""){
+					alert("你忘記上傳照片");
+				}
+				else{
+				    my_form.submit();
+				    window.setTimeout(gogo,5000);
+				}
+			}
+			function gogo(){
+				window.location="/home/";
+			}
+		</script>
+	</head>
+	<body onload = "initialize()">
+		<body >
+		<nav>
+		    <div class="nav-wrapper" style="background-color:#039be5;">
+		      	<a href="/home/" class="brand-logo">What To Eat</a>
+		      	<ul class="right hide-on-med-and-down">
+		      		<li>
+		      			<div class="row">
+						    <div class="input-field">
+						        <input id="search" type="search" placeholder="輸入朋友名字.." required >
+						        <label for="search"><i class="material-icons">search</i></label>
+						        <i class="material-icons">close</i>
+					        </div>
+						</div>
+		      		</li>
+		        	<li><a onclick="Search()"><i class="material-icons right" onclick="Search()">search</i>搜尋朋友</a></li>
+		        	<li><a id="coins"><i class="material-icons left">local_atm</i>X</a></li>
+		        	<li><a id="FBphoto_sticker"></a></li>
+					<a style="display: none;color:white;" id="fb_login_btn" scope="public_profile,email" href="javascript:void(0);" onclick="checkLoginState()" class="waves-effect waves-light btn-flat">
+						<text class="fa fa-facebook"></text>Login</a>
+		      	</ul>
+		    </div>
+		</nav>
+
+
+		<div class="card" id="div-1a">
+		    <div class="card-image">
+		    	<div id="map_canvas"></div>
+		    </div>
+		    <div class="card-content">
+		      <span class="card-title activator grey-text text-darken-4">你現在的位置</span>
+		      <p>可以手動輸入地址來改變位置</p>
+		    </div>
+		</div>
+		<div id="div-1a">
+			<form id="id_form" name="my_form" class="col s6" action="http://36.226.104.37:8000/post/" method="POST" enctype="multipart/form-data" target="form_iframe">
+				<input type="hidden" name="csrfmiddlewaretoken" value="I7IOeWrn00rLMfagJjCwWQMtEzvbV2t6">
+				<input type="hidden" id="id_userID" maxlength="50" name="userID">
+				<p>
+					<div class="input-field col s6">
+						<i class="material-icons prefix">store</i>
+						<input id="id_shopName" class="validate" type="text" maxlength="50" name="shopName" >
+						<label for="id_shopName">店名:</label>
+					</div>
+				</p>
+				<p>
+					<div class="input-field col s6">
+						<i class="material-icons prefix">label</i>
+						<input id="id_foodName" class="validate" maxlength="50" name="foodName" type="text">
+					    <label for="id_foodName">菜名:</label>
+					</div>
+				</p>
+				<p>
+					<div>
+						<i class="material-icons prefix">view_list</i>
+						<label for="id_type" style="font-size:15px">種類:</label>
+						<select id="id_type"  name="type">
+							<option value="" disabled selected>---------</option>
+							<option value="台式">台式</option>
+							<option value="中式">中式</option>
+							<option value="西式">西式</option>
+							<option value="泰式">泰式</option>
+							<option value="義式">義式</option>
+							<option value="日式">日式</option>
+							<option value="韓式">韓式</option>
+							<option value="法式">法式</option>
+							<option value="越南">越南</option>
+							<option value="印度">印度</option>
+							<option value="其它">其它</option>
+						</select>
+					</div>
+				</p>
+				<p>
+					<div>
+						<i class="material-icons prefix">schedule</i>
+						<label for="id_meal" style="font-size:15px">Meal:</label>
+						<select id="id_meal" name="meal" >
+							<option value="" disabled selected>---------</option>
+							<option value="早餐">早餐</option>
+							<option value="早午餐">早午餐</option>
+							<option value="午餐">午餐</option>
+							<option value="下午茶">下午茶</option>
+							<option value="晚餐">晚餐</option>
+							<option value="宵夜">宵夜</option>
+						</select>
+					</div>
+				</p>
+				<p>
+					<div class="input-field col s6">
+						<i class="material-icons prefix">location_on</i>
+						<input id="id_address" class="validate" maxlength="50" name="address" type="text" onchange="searchAddress()">
+						<!--<label for="id_address">地址:</label>-->
+					</div>
+				</p>
+				<p>
+					<div class="input-field col s6">
+						<i class="material-icons prefix">mode_edit</i>
+						<input id="id_message" class="validate" maxlength="40" name="message" type="text">
+						<label for="id_message" class="validate">心得:</label>
+
+					</div>
+				</p>
+				<p>
+					<div class="file-field input-field">
+					    <div class="file-field input-field">
+					    	<i class="material-icons prefix">photo</i>
+					    	<label for="id_photo" class="validate">照片:</label>
+							<div class="btn-flat" id="id_photo">
+					        	<input type="file" name="photo">
+					      	</div>
+					    <div class="file-path-wrapper">
+					    <input class="file-path validate" type="text">
+					    </div>
+					</div>
+				</p>
+				<p>
+					<button class="btn waves-effect waves-light" type="button" name="action" onClick="check()">Submit
+    					<i class="material-icons right">send</i>
+  					</button>
+  				</p>
+			</form>
+		</div>
+		<div class="fixed-action-btn" style="bottom: 45px; right: 24px; ">
+          <a href="/home/" class="btn-floating btn-large light-blue darken-1" id="search">
+             <i class="material-icons" >home</i>
+          </a>
+        </div>
+	<iframe name="form_iframe" width="0px" height="0px" scrolling="no">
+	</iframe>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Login </title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    {% if fbId %}<img src="https://graph.facebook.com/{{fbId}}/picture?width=500&height=500"></img> {% endif %}
+    {% if userName %}<div>Hello! {{userName}}</div>{% endif %}
+</body>
+</html>
